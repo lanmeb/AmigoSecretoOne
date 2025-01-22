@@ -2,8 +2,14 @@ let amigos = [];
 
 function adicionarAmigo() {
     let amigo = document.getElementById("amigo");
+    let regex = /^[a-zA-Z]+$/; 
     if (amigo.value == "") {
         alert("Por favor, insira um nome.");
+        amigo.focus();
+        return;
+    }
+    if (!regex.test(amigo.value)) {
+        alert("Por favor, insira um nome válido (sem caracteres especiais).");
         amigo.focus();
         return;
     }
@@ -14,6 +20,7 @@ function adicionarAmigo() {
     
 
     amigos.push(amigo.value); // Adiciona o amigo ao array
+    alert('Amigo adicionado com sucesso!');
     atualizarListaAmigos(); // Atualiza a lista de amigos exibida
 
     amigo.value = ""; // limpa o campo do amigo
