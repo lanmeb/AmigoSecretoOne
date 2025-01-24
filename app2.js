@@ -17,6 +17,11 @@ function adicionarAmigo() {
         alert('Nome já existe!');
         return; 
     }
+    if (amigo.value.length < 3) {
+        alert("O nome deve ter pelo menos três letras.");
+        amigo.focus();
+        return;
+    }
     
 
     amigos.push(amigo.value); // Adiciona o amigo ao array
