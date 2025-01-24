@@ -27,7 +27,7 @@ Este projeto é uma aplicação simples para gerenciar uma lista de amigos e rea
 - Reiniciar: Limpa a lista de amigos e reinicia a interface.
 - Focar no Campo de Entrada: Define o foco (cursor) no campo de entrada de texto ao carregar a página.
 - 
-## **Tecnologias utilizadas:**
+## 🔧 **Tecnologias utilizadas**
  
  <div>
   <img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
@@ -35,8 +35,9 @@ Este projeto é uma aplicação simples para gerenciar uma lista de amigos e rea
   <img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
  </div>
 
-## Deploy
-[Link](https://lanmeb.github.io/AmigoSecretoOne/)
+## 🥳 Deploy
+Curioso para ver o resultado? 
+[Projeto](https://lanmeb.github.io/AmigoSecretoOne/)
 
 
 
